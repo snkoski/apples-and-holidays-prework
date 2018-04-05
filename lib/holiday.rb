@@ -98,7 +98,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       supplies.each do |supply|
         print supplies.index(supply) == supplies.size ? "#{supply}" : "#{supply}, "
-        print supply
+        #print supply
       end
     end
   end
