@@ -97,6 +97,7 @@ def all_supplies_in_holidays(holiday_hash)
       print day_joined + ": "
       
       supplies.each do |supply|
+        
         print supply
       end
     end
