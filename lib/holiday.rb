@@ -95,10 +95,11 @@ def all_supplies_in_holidays(holiday_hash)
         day_word.capitalize!
       end
       day_joined = day.join(" ")
-      puts "  " + day_joined + ": "
+      string = "  " + day_joined + ": "
       supplies.each do |supply|
-       puts supplies.index(supply) == supplies.size - 1 ? " #{supply}\n" : "#{supply},"
+        supplies.index(supply) == supplies.size - 1 ? string +=" #{supply}\n" : string += "#{supply},"
       end
+      puts string
     end
   end
 
