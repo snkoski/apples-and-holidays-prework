@@ -90,10 +90,10 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |holiday, supplies|
       day = []
       day = holiday.to_s.split("_")
-      day.each do |test|
-        puts test
+      day.each do |day_word|
+        day_word.capitalize
       end
-      puts day
+      
       #holiday.split
       ##holiday.each do |day|
      #   day.capitalize!
