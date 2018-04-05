@@ -90,6 +90,9 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |holiday, supplies|
       day = []
       day = holiday.to_s.split
+      day.each do |test|
+        puts test
+      end
       puts day
       #holiday.split
       ##holiday.each do |day|
