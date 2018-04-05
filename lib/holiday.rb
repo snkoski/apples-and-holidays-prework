@@ -94,7 +94,7 @@ def all_supplies_in_holidays(holiday_hash)
         day_word.capitalize!
       end
       day_joined = day.join(" ")
-      print day_joined
+      print day_joined + ": "
       
       supplies.each do |supply|
         puts supply
