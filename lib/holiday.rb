@@ -94,11 +94,7 @@ def all_supplies_in_holidays(holiday_hash)
         day_word.capitalize
       end
       day.join(" ")
-      #holiday.split
-      ##holiday.each do |day|
-     #   day.capitalize!
-      #  day.join(" ")
-     # end
+      puts day
       puts holiday
       supplies.each do |supply|
         puts supply
