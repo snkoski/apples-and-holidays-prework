@@ -97,7 +97,7 @@ def all_supplies_in_holidays(holiday_hash)
       print day_joined + ": "
       
       supplies.each do |supply|
-        print supplies.index(supply) == supplies.size ? "#{supply}/n" : "#{supply}, "
+        print supplies.index(supply) == supplies.size ? "#{supply}" : "#{supply}, "
         #print supply
       end
     end
